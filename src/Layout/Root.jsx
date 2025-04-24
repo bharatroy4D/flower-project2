@@ -4,6 +4,7 @@ import Header from '../Components/Shared/Header';
 import Top from '../Components/Top/Top';
 import MiddleTop from '../Components/Top/MiddleTop';
 import Footer from '../Components/Footer/Footer';
+import Service from '../Components/Service/Service';
 
 const Root = () => {
     return (
@@ -12,6 +13,7 @@ const Root = () => {
             <MiddleTop></MiddleTop>
             <Header></Header>
             <Outlet></Outlet>
+            <Service></Service>
             <Footer></Footer>
         </div>
     );
