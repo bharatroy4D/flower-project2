@@ -3,6 +3,7 @@ import { BsFlower1 } from 'react-icons/bs';
 import { HiArrowPath, HiMiniArrowPath } from 'react-icons/hi2';
 import { IoMdHeartEmpty } from 'react-icons/io';
 import { FiSearch, FiShoppingCart } from 'react-icons/fi';
+import daisy from '../../assets/daisy.png'
 
 
 const MiddleTop = () => {
@@ -10,8 +11,8 @@ const MiddleTop = () => {
         <div>
             <div className="flex bg-base-100 justify-between items-center py-6 px-10 ">
                 <div className="text-3xl">
-                    <a className="flex gap-2 items-center font-bold font-serif text-4xl text-pink-800"><BsFlower1 className='text-pink-800' />
-                        Flower</a>
+                    <a className="flex gap-2 items-center font-bold font-serif text-4xl text-pink-800"><img src={daisy} alt="" className='w-11'/>
+                        Flowers</a>
                 </div>
                 <div className="flex w-full max-w-md rounded-md overflow-hidden border border-gray-300">
                     <input
