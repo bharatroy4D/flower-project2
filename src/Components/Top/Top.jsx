@@ -13,11 +13,11 @@ const Top = () => {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li className="relative pr-4">
+                        <li className="relative pr-2">
                             <a className="text-gray-600">Help Center</a>
                             <span className="absolute right-0 top-1/2 -translate-y-1/2 h-3"></span>
                         </li>
-                        <li className="relative pr-4">
+                        <li className="relative pr-2">
                             <a className="text-gray-600">Order Tracking</a>
                             <span className="absolute right-0 top-1/2 -translate-y-1/2 h-3 "></span>
                         </li>
