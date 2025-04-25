@@ -11,6 +11,7 @@ import About from './Components/Route/About/About.jsx';
 import Products from './Components/Route/Products/Products.jsx';
 import Blogs from './Components/Route/Blogs/Blogs.jsx';
 import Root from './Layout/Root.jsx';
+import SingleCard from './Components/Trendings/SingleCard/SingleCard.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path:'/blogs',
         element:<Blogs/>
       },
+      {
+        path:'/singleCard/:id',
+        element:<SingleCard/>
+      }
     ]
   },
 ]);
