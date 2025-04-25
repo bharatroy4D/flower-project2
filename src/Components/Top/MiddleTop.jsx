@@ -9,7 +9,7 @@ import daisy from '../../assets/daisy.png'
 const MiddleTop = () => {
     return (
         <div >
-            <div className="flex justify-between items-center py-6 px-10 bg-base-200 ">
+            <div className="flex justify-between items-center py-6 mx-10 bg-base-200 ">
                 <div className="text-3xl">
                     <a className="flex gap-2 items-center font-bold font-serif  text-4xl text-pink-800"><img src={daisy} alt="" className='w-11' />
                         Flowers</a>
