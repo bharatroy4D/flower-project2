@@ -7,19 +7,19 @@ const clientsData = [
     {
         name: 'John Doe',
         position: 'Florist, Green Bloom',
-        description: 'Amazing service! I always get my flower supplies delivered on time and in perfect condition.',
+        description: 'Amazing service! I always get my flower supplies delivered on time and in perfect condition my flower supplies delivered on time and in perfect condition.',
         image: user_1
     },
     {
         name: 'Ayesha Khan',
         position: 'Event Planner, Rose Events',
-        description: 'Their flowers added elegance to my events. Truly fresh and vibrant every single time!',
+        description: 'Their flowers added elegance to my events. Truly fresh and vibrant every single time! my flower supplies delivered on time and in perfect condition',
         image: user_2
     },
     {
         name: 'Rahul Mehta',
         position: 'Manager, The Flower Spot',
-        description: 'Great quality products and fast shipping. Highly recommended for floral business owners.',
+        description: 'Great quality products and fast shipping. Highly recommended for floral business ownersmy flower supplies delivered on time and in perfect condition',
         image: user_3
     },
 ];

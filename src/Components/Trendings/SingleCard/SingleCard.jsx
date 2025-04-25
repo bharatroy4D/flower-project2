@@ -67,7 +67,11 @@ const SingleCard = () => {
             Price:
             <p className="text-lg text-gray-500">{singleCard?.price}</p>{" "}
           </h1>
+          <div className="flex gap-2">
           <button className="btn bg-red-500 text-white my-2">Add to Card</button>
+          <button className="btn bg-green-600 text-white my-2">Back</button>
+
+          </div>
         </div>
       </div>
     </div>

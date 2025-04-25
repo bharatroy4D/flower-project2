@@ -27,7 +27,7 @@ const Trending = ({ flower }) => {
         </div>
         <Link to={`/singleCard/${flower.id}`}>
           <button className="  bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded font-medium transition">
-            Options
+            Veiw Details
           </button>
         </Link>
       </div>
