@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex gap-8 items-center px-10 py-3 font-semibold'>
+        <div className='flex gap-8 items-center w-9/12 mx-auto py-3 font-semibold'>
             <button className='btn bg-red-600 text-white font-semibold py-2 mr-10'>Shop by Categories <MdOutlineKeyboardArrowDown />
             </button>
             <NavLink to='/'>Flowers</NavLink>

@@ -24,7 +24,7 @@ const products = [
 
 const Hero = () => {
     return (
-        <div className="px-10 py-6">
+        <div className="w-9/12 mx-auto py-6">
             <div className="flex flex-col lg:flex-row gap-6 items-start">
 
                 {/* Banner Section */}

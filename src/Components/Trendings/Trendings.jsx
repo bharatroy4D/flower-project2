@@ -6,7 +6,7 @@ const Trendings = () => {
     const [flowers] = useFlower();
 
     return (
-        <div className='px-10'>
+        <div className='w-9/12 mx-auto'>
             <h1 className='text-3xl font-bold pb-8 font-sans'>Trending Collection</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6'>
                 {

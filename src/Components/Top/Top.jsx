@@ -4,7 +4,7 @@ import { LiaFlagUsaSolid } from 'react-icons/lia';
 const Top = () => {
     return (
         <div>
-            <div className="flex items-center justify-between mx-10 bg-base-100 text-sm border-b border-gray-400/30">
+            <div className="flex items-center justify-between w-9/12 mx-auto bg-base-100 text-sm border-b border-gray-400/30">
                 <div className="flex-1">
                     <a href="#" className="text-gray-600">
                         Limited-Time Offers : Mid-Summer Season Sale On Selected Items - 
