@@ -8,7 +8,6 @@ import b from '../../../../assets/b.png';
 import c from '../../../../assets/c.png';
 import d from '../../../../assets/d.png';
 import e from '../../../../assets/crocus.png';
-import f from '../../../../assets/zinnia.png';
 
 const flowers = [
     { id: 1, img: rose, label: "Rose" },
@@ -18,10 +17,9 @@ const flowers = [
 const products = [
     { id: 1, img: a },
     { id: 2, img: e },
-    { id: 3, img: f },
+    { id: 3, img: c },
     { id: 4, img: d },
     { id: 5, img: b },
-    { id: 6, img: c },
 ]
 
 const Hero = () => {
@@ -68,7 +66,7 @@ const Hero = () => {
                 {
                     products.map(({id, img}) =>(
                         <div key={id} className='border border-gray-400/25 rounded px-10 py-3 bg-base-300 shadow-md'>
-                            <img src={img} alt=""  className='w-28'/>
+                            <img src={img} alt=""  className='min-w-28'/>
                         </div>
                     ))
                 }
