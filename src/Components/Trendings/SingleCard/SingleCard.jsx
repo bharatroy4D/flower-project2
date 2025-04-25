@@ -18,7 +18,7 @@ const SingleCard = () => {
     <div className="flex gap-40  px-10">
       {/* single card images */}
       <div className="py-7">
-        <img src={singleCard?.img} alt="" className="h-[500px]" />
+        <img src={singleCard?.img} alt="" className="h-[500px] rounded" />
       </div>
       {/* single card of details */}
       <div>

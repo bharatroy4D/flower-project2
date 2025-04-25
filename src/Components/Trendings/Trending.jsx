@@ -6,9 +6,9 @@ const Trending = ({ flower }) => {
   const { img, title, price, descrip, star } = flower;
 
   return (
-    <div className="bg-white rounded-2xl shadow-md overflow-hidden w-full max-w-sm flex flex-col hover:shadow-lg transition duration-300">
+    <div className="bg-white rounded shadow-md overflow-hidden w-full max-w-sm flex flex-col hover:shadow-lg transition duration-300">
       {/* ⬇️ Image height made smaller */}
-      <img src={img} alt={title} className="w-full h-40 object-cover" />
+      <img src={img} alt={title} className="w-full h-52 p-5 object-cover rounded" />
 
       <div className="flex flex-col justify-between flex-grow p-4 space-y-3">
         <h2 className="text-lg font-bold text-gray-800">{title}</h2>
@@ -26,7 +26,7 @@ const Trending = ({ flower }) => {
           <span className="text-pink-600 font-semibold text-lg">${price}</span>
         </div>
         <Link to={`/singleCard/${flower.id}`}>
-          <button className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg font-medium transition">
+          <button className="  bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded font-medium transition">
             Options
           </button>
         </Link>

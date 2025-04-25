@@ -35,7 +35,7 @@ const Discount = () => {
                         {/* Absolute positioning for discount button and description */}
                         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between p-4 bg-gradient-to-t from-black to-transparent opacity-80">
                             {/* Discount Button */}
-                            <button className="bg-red-600 text-white py-2 px-4 rounded-lg font-semibold text-lg z-10 hover:bg-pink-700 transition-all">
+                            <button className="bg-red-600 text-white w-fit py-2 px-4 rounded-lg font-semibold text-lg z-10 hover:bg-pink-700 transition-all">
                                 {card.discount}
                             </button>
                             {/* Description */}

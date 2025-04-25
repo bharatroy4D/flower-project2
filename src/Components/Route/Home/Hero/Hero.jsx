@@ -66,7 +66,7 @@ const Hero = () => {
                 {
                     products.map(({id, img}) =>(
                         <div key={id} className='border border-gray-400/25 rounded px-10 py-3 bg-base-300 shadow-md'>
-                            <img src={img} alt=""  className='min-w-28'/>
+                            <img src={img} alt=""  className='min-w-36 min-h-20'/>
                         </div>
                     ))
                 }
