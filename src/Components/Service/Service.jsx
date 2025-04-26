@@ -27,10 +27,10 @@ const services = [
 
 const Service = () => {
     return (
-        <div className="bg-green-50 py-10 w-9/12 mx-auto px-2 md:px-10">
+        <div className=" py-10 w-10/12 mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 {services.map((service) => (
-                    <div key={service.id} className="bg-base-100 shadow rounded-lg p-6 flex flex-col items-center text-center  transition">
+                    <div key={service.id} className="bg-base-300 shadow rounded-lg p-6 flex flex-col items-center text-center  transition">
                         {service.icon}
                         <h3 className="mt-4 text-lg font-semibold text-gray-800">{service.title}</h3>
                     </div>

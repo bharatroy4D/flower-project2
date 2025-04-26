@@ -17,7 +17,7 @@ const Discount = () => {
     ];
 
     return (
-        <div className=" w-9/12 mx-auto  mt-10 py-10">
+        <div className=" w-10/12 mx-auto  mt-7 py-10">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
                 {/* Render both cards */}
                 {cards.map((card) => (
@@ -33,9 +33,9 @@ const Discount = () => {
                         />
 
                         {/* Absolute positioning for discount button and description */}
-                        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between p-4 bg-gradient-to-t from-black to-transparent opacity-80">
+                        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end p-4 bg-gradient-to-t from-black to-transparent opacity-80">
                             {/* Discount Button */}
-                            <button className="bg-red-600 text-white w-fit py-2 px-4 rounded-lg font-semibold text-lg z-10 hover:bg-pink-700 transition-all">
+                            <button className=" bg-red-600 text-white w-fit py-2 px-4 rounded-lg font-semibold text-lg z-10 hover:bg-pink-700 transition-all">
                                 {card.discount}
                             </button>
                             {/* Description */}

@@ -26,11 +26,11 @@ const clientsData = [
 
 const Clients = () => {
     return (
-        <div className="w-9/12 mx-auto py-8 bg-gray-50">
+        <div className="w-10/12 mx-auto py-8 ">
             <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
             <div className="grid md:grid-cols-3 gap-6">
                 {clientsData.map((client, index) => (
-                    <div key={index} className="bg-white p-6 rounded shadow hover:shadow-lg transition-all duration-300">
+                    <div key={index} className="bg-base-200 p-6 rounded shadow hover:shadow-lg transition-all duration-300">
                         <div className="flex items-center gap-4">
                             <img 
                                 src={client.image} 

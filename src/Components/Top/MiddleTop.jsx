@@ -9,12 +9,12 @@ import daisy from '../../assets/daisy.png'
 const MiddleTop = () => {
     return (
         <div >
-            <div className="flex justify-between items-center py-6 w-10/12 mx-auto  border-b border-gray-400/30 ">
+            <div className="flex justify-between items-center gap-4 py-6 w-10/12 mx-auto  border-b border-gray-400/30 ">
                 <div className="text-3xl hidden lg:block">
                     <a className="flex gap-2 items-center font-bold font-serif  text-4xl text-pink-800"><img src={daisy} alt="" className='w-11' />
                         Flowers</a>
                 </div>
-                <div className="flex w-full max-w-md rounded-md overflow-hidden border border-gray-300">
+                <div className="flex w-full lg:max-w-md rounded-md overflow-hidden border border-gray-300">
                     <input
                         type="text"
                         placeholder="Search products here..."
