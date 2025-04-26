@@ -95,7 +95,7 @@ const Hero = () => {
                 className="flex flex-wrap justify-center md:justify-between gap-5 mt-12"
             >
                     {products.map(({ id, img }) => (
-                        <div key={id} className="border border-gray-300 bg-base-200 rounded-lg p-5 flex items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-44 h-20">
+                        <div key={id} className="border border-gray-300 bg-base-200 rounded-lg p-5 flex items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-44 lg:h-auto">
                             <img src={img} alt="Product" className="h-14 object-contain" />
                         </div>
                     ))}
