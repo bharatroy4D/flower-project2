@@ -3,48 +3,51 @@ import { LiaFlagUsaSolid } from 'react-icons/lia';
 
 const Top = () => {
     return (
-        <div>
-            <div className="flex items-center justify-between w-9/12 mx-auto bg-base-100 text-sm border-b border-gray-400/30">
-                <div className="flex-1">
+        <div className="bg-base-100 text-sm ">
+            <div className="w-10/12 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2 py-2">
+
+                {/* Offer Text */}
+                <div className="hidden lg:block text-center md:text-left w-full md:w-auto">
                     <a href="#" className="text-gray-600">
-                        Limited-Time Offers : Mid-Summer Season Sale On Selected Items - 
+                        Limited-Time Offers: Mid-Summer Season Sale On Selected Items - 
                         <span className='text-red-500 font-semibold underline ml-1'>SHOP NOW</span>
                     </a>
                 </div>
-                <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1">
-                        <li className="relative pr-2">
-                            <a className="text-gray-600">Help Center</a>
-                            <span className="absolute right-0 top-1/2 -translate-y-1/2 h-3"></span>
-                        </li>
-                        <li className="relative pr-2">
-                            <a className="text-gray-600">Order Tracking</a>
-                            <span className="absolute right-0 top-1/2 -translate-y-1/2 h-3 "></span>
+
+                {/* Right Menus */}
+                <div className="w-full md:w-auto">
+                    <ul className="flex flex-wrap justify-center md:justify-end items-center gap-3 text-gray-600">
+                        <li>
+                            <a className="hover:text-red-500 transition-all duration-300">Help Center</a>
                         </li>
                         <li>
-                            <details>
-                                <summary className='flex items-center gap-1 text-gray-600'>
-                                    <LiaFlagUsaSolid className='text-xl' />EN
+                            <a className="hover:text-red-500 transition-all duration-300">Order Tracking</a>
+                        </li>
+                        <li>
+                            <details className="relative cursor-pointer">
+                                <summary className="flex items-center gap-1 hover:text-red-500 transition-all duration-300">
+                                    <LiaFlagUsaSolid className="text-xl" /> EN
                                 </summary>
-                                <ul className="bg-base-100 rounded-t-none p-2">
-                                    <li><a><LiaFlagUsaSolid />English</a></li>
-                                    <li><a><LiaFlagUsaSolid />France</a></li>
-                                    <li><a><LiaFlagUsaSolid />India</a></li>
-                                    <li><a><LiaFlagUsaSolid />Bangladesh</a></li>
+                                <ul className="absolute right-0 mt-2 w-32 p-2 bg-base-100 rounded shadow-md z-10">
+                                    <li><a className="flex items-center gap-1 hover:bg-gray-100 p-1 rounded"><LiaFlagUsaSolid /> English</a></li>
+                                    <li><a className="flex items-center gap-1 hover:bg-gray-100 p-1 rounded"><LiaFlagUsaSolid /> France</a></li>
+                                    <li><a className="flex items-center gap-1 hover:bg-gray-100 p-1 rounded"><LiaFlagUsaSolid /> India</a></li>
+                                    <li><a className="flex items-center gap-1 hover:bg-gray-100 p-1 rounded"><LiaFlagUsaSolid /> Bangladesh</a></li>
                                 </ul>
                             </details>
                         </li>
                         <li>
-                            <details>
-                                <summary className="text-gray-600">USD</summary>
-                                <ul className="bg-base-100 rounded-t-none p-2">
-                                    <li><a>EUR</a></li>
-                                    <li><a>USD</a></li>
+                            <details className="relative cursor-pointer">
+                                <summary className="hover:text-red-500 transition-all duration-300">USD</summary>
+                                <ul className="absolute right-0 mt-2 w-24 p-2 bg-base-100 rounded shadow-md z-10">
+                                    <li><a className="hover:bg-gray-100 p-1 rounded">EUR</a></li>
+                                    <li><a className="hover:bg-gray-100 p-1 rounded">USD</a></li>
                                 </ul>
                             </details>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     );
