@@ -25,7 +25,7 @@ const products = [
 const Hero = () => {
     return (
         <div className="w-9/12 mx-auto py-6">
-            <div className="flex flex-col lg:flex-row gap-6 items-start">
+            <div className="flex flex-col lg:flex-row gap-6  items-start">
 
                 {/* Banner Section */}
                 <div className="relative w-full lg:w-[72%]">
@@ -47,9 +47,9 @@ const Hero = () => {
                 </div>
 
                 {/* Flower Cards */}
-                <div className="flex flex-col gap-7 justify-between w-full lg:w-[28%]">
+                <div className="flex flex-col gap-7 justify-between w-full ">
                     {flowers.map(({ id, img, label }) => (
-                        <div key={id} className="flex items-center justify-between bg-gray-200 p-7 rounded w-full">
+                        <div key={id} className="flex items-center justify-between bg-gray-200 shadow p-7 rounded w-full">
                             <img src={img} alt={label} className="w-20 md:w-24" />
                             <div>
                                 <button className="text-xs bg-red-600 text-white px-3 py-1 rounded-full">save 10% off</button>
@@ -62,11 +62,11 @@ const Hero = () => {
 
             </div>
             {/* products */}
-            <div className='flex justify-between gap-5 my-10'>
+            <div className='flex justify-between gap-5 my-10 '>
                 {
                     products.map(({id, img}) =>(
-                        <div key={id} className='border border-gray-400/25 rounded px-10 py-3 bg-base-300 shadow-md'>
-                            <img src={img} alt=""  className='min-w-36 min-h-20'/>
+                        <div key={id} className='border border-gray-400/25 rounded px-10 py-3 bg-base-200 shadow-md'>
+                            <img src={img} alt=""  className=' min-h-14'/>
                         </div>
                     ))
                 }
