@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import shop_2 from '../../../../assets/shop3.jpg';
 import rose from '../../../../assets/rose.png';
 import zinnia from '../../../../assets/zinnia.png';
@@ -14,63 +15,92 @@ const flowers = [
     { id: 2, img: zinnia, label: "Zinnia" },
     { id: 3, img: crocus, label: "Crocus" },
 ];
+
 const products = [
     { id: 1, img: a },
     { id: 2, img: e },
     { id: 3, img: c },
     { id: 4, img: d },
     { id: 5, img: b },
-]
+];
 
 const Hero = () => {
     return (
-        <div className="w-9/12 mx-auto py-6">
-            <div className="flex flex-col lg:flex-row gap-6  items-start">
+        <div className="w-10/12 max-w-7xl mx-auto py-10">
+
+            {/* Top Banner + Flower Cards */}
+            <div className="flex flex-col lg:flex-row gap-10 items-stretch">
 
                 {/* Banner Section */}
-                <div className="relative w-full lg:w-[72%]">
+                <motion.div
+                    initial={{ opacity: 0, x: -100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8 }}
+                    className="relative w-full lg:w-2/3 rounded-xl overflow-hidden"
+                >
                     <img
                         src={shop_2}
                         alt="Banner"
-                        className="w-full h-[300px] md:h-[400px] lg:h-[500px] rounded object-cover opacity-90"
+                        className="w-full h-[250px] md:h-[400px] lg:h-[400px] object-cover"
                     />
-                    <div className="absolute top-28 right-8 text-white max-w-md">
-                        <button className="bg-red-600 px-3 py-1 rounded-full text-sm">WELCOME TO SHOP</button>
+                    <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-10 text-white bg-black/20">
+                        <button className="bg-red-600 px-4 py-1 rounded-full text-xs md:text-sm uppercase tracking-wide w-max">
+                            Welcome to Shop
+                        </button>
                         <h1 className="text-2xl md:text-4xl font-bold mt-4 leading-snug">
-                            Follower <br /> All Items show <br /> for you
+                            Flower <br /> All Items Show <br /> For You
                         </h1>
-                        <p className="mt-2 text-sm">This week only for follower premiums</p>
-                        <button className="mt-4 bg-red-600 px-5 py-2 rounded text-white text-base font-semibold">
+                        <p className="mt-3 text-sm md:text-base max-w-sm">
+                            This week only for Flower Premiums. Grab your favorite flowers now!
+                        </p>
+                        <button className="mt-5 bg-red-600 hover:bg-red-700 w-fit px-6 py-2 rounded-full text-white font-semibold text-sm md:text-base transition">
                             Shop Now
                         </button>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Flower Cards */}
-                <div className="flex flex-col gap-7 justify-between w-full ">
+                <motion.div
+                    initial={{ opacity: 0, x: 100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8 }}
+                    className="flex flex-col gap-6 w-full lg:w-1/3 h-full justify-between"
+                >
                     {flowers.map(({ id, img, label }) => (
-                        <div key={id} className="flex items-center justify-between bg-gray-200 shadow p-7 rounded w-full">
-                            <img src={img} alt={label} className="w-20 md:w-24" />
-                            <div>
-                                <button className="text-xs bg-red-600 text-white px-3 py-1 rounded-full">save 10% off</button>
-                                <h3 className="text-lg font-semibold mt-2">{label} Flower</h3>
-                                <p className="text-sm underline mt-1 font-medium">Shop Now</p>
+                        <motion.div
+                            key={id}
+                            whileHover={{ scale: 1.03 }}
+                            className="flex items-center justify-between bg-gray-100 hover:bg-gray-200 transition rounded-lg p-4 shadow h-[30%]"
+                        >
+                            <img src={img} alt={label} className="w-16 md:w-20 object-contain" />
+                            <div className="text-right">
+                                <button className="text-xs bg-red-600 text-white px-3 py-1 rounded-full mb-2">
+                                    Save 10% Off
+                                </button>
+                                <h3 className="text-lg font-semibold">{label} Flower</h3>
+                                <p className="text-sm text-pink-600 underline cursor-pointer">Shop Now</p>
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
-                </div>
+                </motion.div>
 
             </div>
-            {/* products */}
-            <div className='flex justify-between gap-5 my-10 '>
-                {
-                    products.map(({id, img}) =>(
-                        <div key={id} className='border border-gray-400/25 rounded px-10 py-3 bg-base-200 shadow-md'>
-                            <img src={img} alt=""  className=' min-h-14'/>
-                        </div>
-                    ))
-                }
-            </div>
+
+            {/* Products Section */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                className="flex flex-wrap justify-center md:justify-between gap-5 mt-12"
+            >
+                {products.map(({ id, img }) => (
+                    <div key={id} className="border border-gray-300 bg-base-200 rounded-lg p-5 flex items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-36 h-20">
+                        <img src={img} alt="Product" className="h-14 object-contain" />
+                    </div>
+                ))}
+            </motion.div>
+
         </div>
     );
 };
