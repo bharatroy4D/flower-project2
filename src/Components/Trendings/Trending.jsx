@@ -1,5 +1,8 @@
 import React from "react";
+import { BsArrowsFullscreen } from "react-icons/bs";
+import { CiHeart } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
+import { HiArrowPathRoundedSquare } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
 const Trending = ({ flower }) => {
@@ -9,17 +12,24 @@ const Trending = ({ flower }) => {
     <div className="bg-white rounded border border-gray-300 shadow-lg overflow-hidden md:w-full  w-72 flex flex-col hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
 
       {/* Flower Image */}
-      <div className="w-full h-48 overflow-hidden flex items-center justify-center bg-gray-100">
+      <div className="w-full h-48 overflow-hidden relative flex items-center justify-center bg-gray-200">
         <img
           src={img}
           alt={title}
-          className="h-full object-cover hover:scale-105 transition-transform duration-300"
+          className="h-44 object-cover hover:scale-105 transition-transform duration-300"
         />
+        <div className="absolute top-3 left-3 text-sm bg-red-500 text-white py-0.5 px-1 rounded">New</div>
+        <div className="flex flex-col items-center gap- absolute top-3 right-3">
+          <CiHeart className="text-3xl" />
+          <BsArrowsFullscreen className="" />
+          <HiArrowPathRoundedSquare className="text-2xl"/>
+
+        </div>
       </div>
 
       {/* Flower Details */}
-      <div className="flex flex-col flex-grow p-5 space-y-3">
-        <h2 className="text-lg md:text-xl font-bold text-gray-800">{title}</h2>
+      <div className="flex flex-col flex-grow p-5 space-y-2">
+        <h2 className="text-lg font-medium text-gray-800">{title}</h2>
         <p className="text-sm text-gray-600">
           {descrip.length > 60 ? `${descrip.slice(0, 50)}...` : descrip}
         </p>
@@ -30,7 +40,7 @@ const Trending = ({ flower }) => {
             {[...Array(5)].map((_, i) => (
               <FaStar
                 key={i}
-                className={i < Math.round(star) ? "text-yellow-400" : "text-gray-300"}
+                className={i < Math.round(star) ? "text-yellow-400" : "text-yellow-200"}
               />
             ))}
           </div>
@@ -45,7 +55,7 @@ const Trending = ({ flower }) => {
         </Link>
       </div>
     </div>
- 
+
   );
 };
 

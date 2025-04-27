@@ -16,12 +16,12 @@ const Trendings = () => {
         autoplaySpeed: 2000,
         nextArrow: (
             <div className="slick-arrow slick-next flex items-center justify-center bg-white bg-opacity-50 rounded-full p-2 shadow-lg hover:bg-opacity-75">
-                <FaChevronRight className="text-xl text-gray-300" /> {/* Right Arrow */}
+                <FaChevronRight className="text-xl text-gray-400" /> {/* Right Arrow */}
             </div>
         ),
         prevArrow: (
             <div className="slick-arrow slick-prev flex items-center justify-center bg-white bg-opacity-50 rounded-full p-1 shadow-lg hover:bg-opacity-75">
-                <FaChevronLeft className="text-xl text-gray-300" /> {/* Left Arrow */}
+                <FaChevronLeft className="text-xl text-gray-400" /> {/* Left Arrow */}
             </div>
         ),
         responsive: [
@@ -43,8 +43,8 @@ const Trendings = () => {
     };
 
     return (
-        <div className='w-10/12 mx-auto'>
-            <h1 className='text-xl md:text-2xl lg:text-3xl font-bold pb-8 font-sans'>Trending Collection</h1>
+        <div className='w-10/12 mx-auto py-6'>
+            <h1 className='text-2xl lg:text-3xl  font-bold pb-8 font-sans'>Trending Collection</h1>
 
             {/* Slider with custom arrows */}
             <Slider {...settings}>

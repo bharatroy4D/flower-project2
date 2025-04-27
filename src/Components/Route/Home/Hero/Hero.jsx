@@ -17,11 +17,11 @@ const flowers = [
 ];
 
 const products = [
-    { id: 1, img: a },
-    { id: 2, img: e },
-    { id: 3, img: c },
-    { id: 4, img: d },
-    { id: 5, img: b },
+    { id: 1, name:'Rose', img: a },
+    { id: 2, name:'Orchid', img: e },
+    { id: 3, name:'Sunflower', img: c },
+    { id: 4, name:'Daisy', img: d },
+    { id: 5, name:'Tulip', img: b },
 ];
 
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="relative w-full lg:w-2/3 rounded-xl overflow-hidden"
+                    className="relative w-full lg:w-2/3 rounded overflow-hidden"
                 >
                     <img
                         src={shop_2}
@@ -70,7 +70,7 @@ const Hero = () => {
                         <motion.div
                             key={id}
                             whileHover={{ scale: 1.03 }}
-                            className="flex items-center justify-between bg-gray-100 hover:bg-gray-200 transition rounded-lg p-4 shadow h-[30%]"
+                            className="flex items-center justify-between bg-gray-200 hover:bg-gray-200 transition rounded p-4 shadow h-[30%]"
                         >
                             <img src={img} alt={label} className="w-16 md:w-20 object-contain" />
                             <div className="text-right">
@@ -94,9 +94,10 @@ const Hero = () => {
                 transition={{ duration: 1 }}
                 className="flex flex-wrap justify-center md:justify-between gap-5 mt-12"
             >
-                    {products.map(({ id, img }) => (
-                        <div key={id} className="border border-gray-300 bg-base-200 rounded-lg p-5 flex items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-44 lg:h-auto">
-                            <img src={img} alt="Product" className="h-14 object-contain" />
+                    {products.map(({ id, img, name }) => (
+                        <div key={id} className=" border border-gray-300 bg-base-200 rounded p-5 flex flex-col items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-44 lg:h-auto">
+                            <img src={img} alt="Product" className="h-20 object-contain" />
+                            {/* <h1 className='font-medium'>{name}</h1> */}
                         </div>
                     ))}
             </motion.div>
