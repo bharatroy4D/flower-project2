@@ -24,11 +24,11 @@ const SingleCard = () => {
     <div className="w-11/12 max-w-7xl mx-auto py-10 px-4 flex flex-col md:flex-row gap-10 items-center md:items-start">
       
       {/* Single card images */}
-      <div className="w-full md:w-1/2 flex justify-center">
+      <div className="w-full md:w-1/2 flex justify-center ">
         <img
           src={singleCard?.img}
           alt={singleCard?.title}
-          className="rounded object-cover w-full max-w-md h-80 md:h-[500px] border border-gray-300"
+          className="rounded object-cover transform  max-w-md h-80 md:h-[500px] border border-gray-300 hover:shadow-2xl" 
         />
       </div>
 

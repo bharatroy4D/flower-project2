@@ -1,0 +1,326 @@
+[
+    {
+        "id": 1,
+        "name": "Rose",
+        "des": "Symbol of love and beauty, available in various colors.",
+        "img": "https://images.unsplash.com/photo-1582719478191-04a9f6c5c3c9",
+        "category": "Common Flower",
+        "price": 15,
+        "discount": 10
+    },
+    {
+        "id": 2,
+        "name": "Sunflower",
+        "des": "Faces towards the sun, bright and cheerful flower.",
+        "img": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6",
+        "category": "Common Flower",
+        "price": 12,
+        "discount": 5
+    },
+    {
+        "id": 3,
+        "name": "Hibiscus",
+        "des": "Bright and bold flower often found in tropical regions.",
+        "img": "https://images.unsplash.com/photo-1577085078763-cb57b5a2b6ea",
+        "category": "Common Flower",
+        "price": 10,
+        "discount": 8
+    },
+    {
+        "id": 4,
+        "name": "Marigold",
+        "des": "Bright orange and yellow flower used in festivals.",
+        "img": "https://images.unsplash.com/photo-1603899443842-5651184e99b0",
+        "category": "Common Flower",
+        "price": 8,
+        "discount": 5
+    },
+    {
+        "id": 5,
+        "name": "Shiuli",
+        "des": "Night-flowering jasmine blooming in autumn.",
+        "img": "https://images.unsplash.com/photo-1631644270512-3b4f4a9f8178",
+        "category": "Common Flower",
+        "price": 9,
+        "discount": 7
+    },
+    {
+        "id": 6,
+        "name": "Daisy",
+        "des": "Simple white-petaled flower symbolizing innocence.",
+        "img": "https://images.unsplash.com/photo-1518991791750-7492f9d4b1c9",
+        "category": "Common Flower",
+        "price": 11,
+        "discount": 6
+    },
+    {
+        "id": 7,
+        "name": "Tulip",
+        "des": "Spring-blooming flower known for its bright colors.",
+        "img": "https://images.unsplash.com/photo-1551808995-9d6a56c41f7e",
+        "category": "Rare Flower",
+        "price": 18,
+        "discount": 12
+    },
+    {
+        "id": 8,
+        "name": "Orchid",
+        "des": "Exotic and delicate flowers with unique shapes.",
+        "img": "https://images.unsplash.com/photo-1583337130417-3346a1cf1303",
+        "category": "Rare Flower",
+        "price": 22,
+        "discount": 15
+    },
+    {
+        "id": 9,
+        "name": "Peony",
+        "des": "Known for large, lush blooms and sweet scent.",
+        "img": "https://images.unsplash.com/photo-1608571424205-b03a31cc4d65",
+        "category": "Rare Flower",
+        "price": 20,
+        "discount": 10
+    },
+    {
+        "id": 10,
+        "name": "Chrysanthemum",
+        "des": "Autumn-blooming flower symbolizing longevity.",
+        "img": "https://images.unsplash.com/photo-1578575437130-256f56a7499a",
+        "category": "Rare Flower",
+        "price": 17,
+        "discount": 8
+    },
+    {
+        "id": 11,
+        "name": "Carnation",
+        "des": "Popular decorative flower symbolizing fascination.",
+        "img": "https://images.unsplash.com/photo-1597765268049-6bbd747f75b6",
+        "category": "Rare Flower",
+        "price": 14,
+        "discount": 7
+    },
+    {
+        "id": 12,
+        "name": "Lily",
+        "des": "Elegant flower often used at weddings and events.",
+        "img": "https://images.unsplash.com/photo-1596079890746-9cd641d25c23",
+        "category": "Rare Flower",
+        "price": 19,
+        "discount": 9
+    },
+    {
+        "id": 13,
+        "name": "Jasmine",
+        "des": "Highly fragrant white flower popular in perfumes.",
+        "img": "https://images.unsplash.com/photo-1560807707-8cc77767d783",
+        "category": "Fragrant Flower",
+        "price": 10,
+        "discount": 6
+    },
+    {
+        "id": 14,
+        "name": "Lavender",
+        "des": "Purple flower known for its calming scent.",
+        "img": "https://images.unsplash.com/photo-1504198266287-1659872e6590",
+        "category": "Fragrant Flower",
+        "price": 16,
+        "discount": 10
+    },
+    {
+        "id": 15,
+        "name": "Gardenia",
+        "des": "Creamy-white flowers famous for strong fragrance.",
+        "img": "https://images.unsplash.com/photo-1598113429856-8a19c7a24dbf",
+        "category": "Fragrant Flower",
+        "price": 17,
+        "discount": 12
+    },
+    {
+        "id": 16,
+        "name": "Tuberose",
+        "des": "Sweet-smelling flower used in traditional ceremonies.",
+        "img": "https://images.unsplash.com/photo-1634020165158-2f2b3f7e0ee8",
+        "category": "Fragrant Flower",
+        "price": 14,
+        "discount": 9
+    },
+    {
+        "id": 17,
+        "name": "Freesia",
+        "des": "Popular in wedding bouquets for its citrus scent.",
+        "img": "https://images.unsplash.com/photo-1611604541130-f7e3079d3b9c",
+        "category": "Fragrant Flower",
+        "price": 13,
+        "discount": 7
+    },
+    {
+        "id": 18,
+        "name": "Magnolia",
+        "des": "Large white blooms with a fresh lemon scent.",
+        "img": "https://images.unsplash.com/photo-1576592517345-1a2baf64f09c",
+        "category": "Fragrant Flower",
+        "price": 21,
+        "discount": 13
+    },
+    {
+        "id": 19,
+        "name": "Cherry Blossom",
+        "des": "Symbol of renewal and the fleeting nature of life.",
+        "img": "https://images.unsplash.com/photo-1559599101-b139faafa46d",
+        "category": "Seasonal Flower",
+        "price": 20,
+        "discount": 15
+    },
+    {
+        "id": 20,
+        "name": "Lotus",
+        "des": "Sacred flower symbolizing purity and rebirth.",
+        "img": "https://images.unsplash.com/photo-1602513745274-9fc4a6e95035",
+        "category": "Seasonal Flower",
+        "price": 18,
+        "discount": 12
+    },
+    {
+        "id": 21,
+        "name": "Snowdrop",
+        "des": "One of the first flowers to bloom in spring.",
+        "img": "https://images.unsplash.com/photo-1611072671727-c5e9a3a495e8",
+        "category": "Seasonal Flower",
+        "price": 11,
+        "discount": 6
+    },
+    {
+        "id": 22,
+        "name": "Camellia",
+        "des": "Beautiful blooms thriving in cooler climates.",
+        "img": "https://images.unsplash.com/photo-1557683316-973673baf926",
+        "category": "Seasonal Flower",
+        "price": 17,
+        "discount": 9
+    },
+    {
+        "id": 23,
+        "name": "Poppy",
+        "des": "Bright red flower associated with remembrance.",
+        "img": "https://images.unsplash.com/photo-1620393902738-2e301479f688",
+        "category": "Seasonal Flower",
+        "price": 13,
+        "discount": 7
+    },
+    {
+        "id": 24,
+        "name": "Crocus",
+        "des": "Early blooming flower signaling the end of winter.",
+        "img": "https://images.unsplash.com/photo-1611425012779-22d10a51d11b",
+        "category": "Seasonal Flower",
+        "price": 12,
+        "discount": 6
+    },
+    {
+        "id": 25,
+        "name": "Bluebell",
+        "des": "Charming blue flowers carpeting woodland floors.",
+        "img": "https://images.unsplash.com/photo-1620052351021-cf8c4ed29156",
+        "category": "Wild Flower",
+        "price": 9,
+        "discount": 5
+    },
+    {
+        "id": 26,
+        "name": "Foxglove",
+        "des": "Tall spikes of tubular blooms attracting bees.",
+        "img": "https://images.unsplash.com/photo-1581094651188-1a6b2c7c64f7",
+        "category": "Wild Flower",
+        "price": 13,
+        "discount": 7
+    },
+    {
+        "id": 27,
+        "name": "Buttercup",
+        "des": "Glossy yellow flowers found in meadows.",
+        "img": "https://images.unsplash.com/photo-1609871915187-8a4de798d0c3",
+        "category": "Wild Flower",
+        "price": 8,
+        "discount": 4
+    },
+    {
+        "id": 28,
+        "name": "Wild Rose",
+        "des": "Simple but fragrant rose varieties growing wild.",
+        "img": "https://images.unsplash.com/photo-1596854407224-5c0a6362d0e5",
+        "category": "Wild Flower",
+        "price": 11,
+        "discount": 6
+    },
+    {
+        "id": 29,
+        "name": "Dandelion",
+        "des": "Sunny yellow flowers turning into fluffy seeds.",
+        "img": "https://images.unsplash.com/photo-1626776328798-70db76c1c781",
+        "category": "Wild Flower",
+        "price": 7,
+        "discount": 3
+    },
+    {
+        "id": 30,
+        "name": "Forget-me-not",
+        "des": "Tiny blue flowers symbolizing remembrance.",
+        "img": "https://images.unsplash.com/photo-1625691872930-5307e7f70a37",
+        "category": "Wild Flower",
+        "price": 9,
+        "discount": 5
+    },
+    {
+        "id": 31,
+        "name": "Passion Flower",
+        "des": "Exotic flower symbolizing faith and spirituality.",
+        "img": "https://images.unsplash.com/photo-1585314061350-79c7254a3cba",
+        "category": "Exotic Flower",
+        "price": 23,
+        "discount": 15
+    },
+    {
+        "id": 32,
+        "name": "Bird of Paradise",
+        "des": "Striking flower resembling a colorful bird.",
+        "img": "https://images.unsplash.com/photo-1586671266377-4a8b1b1b4f64",
+        "category": "Exotic Flower",
+        "price": 25,
+        "discount": 18
+    },
+    {
+        "id": 33,
+        "name": "Protea",
+        "des": "Large flowering plant native to South Africa.",
+        "img": "https://images.unsplash.com/photo-1576765607925-dcdfa5cf75db",
+        "category": "Exotic Flower",
+        "price": 28,
+        "discount": 20
+    },
+    {
+        "id": 34,
+        "name": "Heliconia",
+        "des": "Tropical flower known for its bright bracts.",
+        "img": "https://images.unsplash.com/photo-1611767531303-8582b85f0584",
+        "category": "Exotic Flower",
+        "price": 24,
+        "discount": 16
+    },
+    {
+        "id": 35,
+        "name": "Anthurium",
+        "des": "Glossy, heart-shaped blooms in bright colors.",
+        "img": "https://images.unsplash.com/photo-1586685693588-6fa9cc02203c",
+        "category": "Exotic Flower",
+        "price": 22,
+        "discount": 14
+    },
+    {
+        "id": 36,
+        "name": "Zantedeschia",
+        "des": "Elegant trumpet-shaped flowers called calla lilies.",
+        "img": "https://images.unsplash.com/photo-1586685693645-4fd1b61f9fbb",
+        "category": "Exotic Flower",
+        "price": 27,
+        "discount": 17
+    }
+]

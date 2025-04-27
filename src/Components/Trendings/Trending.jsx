@@ -45,6 +45,7 @@ const Trending = ({ flower }) => {
         </Link>
       </div>
     </div>
+ 
   );
 };
 
