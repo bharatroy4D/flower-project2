@@ -7,7 +7,7 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="w-10/12 max-w-7xl mx-auto py-4 flex items-center  relative">
+        <div className="w-9/12  mx-auto py-4 flex items-center  relative">
 
             {/* Shop by Categories Button */}
             <div className="flex items-center gap-3">

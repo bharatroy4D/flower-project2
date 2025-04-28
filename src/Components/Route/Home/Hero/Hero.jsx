@@ -26,7 +26,7 @@ const products = [
 
 const Hero = () => {
     return (
-        <div className="w-10/12 max-w-7xl mx-auto py-10">
+        <div className="w-9/12  mx-auto ">
 
             {/* Top Banner + Flower Cards */}
             <div className="flex flex-col lg:flex-row gap-10 items-stretch">
@@ -36,7 +36,7 @@ const Hero = () => {
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="relative w-full lg:w-2/3 rounded overflow-hidden"
+                    className="relative w-full  rounded overflow-hidden"
                 >
                     <img
                         src={shop_2}
@@ -94,7 +94,7 @@ const Hero = () => {
                 transition={{ duration: 1 }}
                 className="flex flex-wrap justify-center md:justify-between gap-5 mt-12"
             >
-                    {products.map(({ id, img, name }) => (
+                    {products.map(({ id, img, }) => (
                         <div key={id} className=" border border-gray-300 bg-base-200 rounded p-5 flex flex-col items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-44 lg:h-auto">
                             <img src={img} alt="Product" className="h-20 object-contain" />
                             {/* <h1 className='font-medium'>{name}</h1> */}
