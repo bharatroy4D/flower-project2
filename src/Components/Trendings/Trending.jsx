@@ -18,13 +18,13 @@ const Trending = ({ flower }) => {
           alt={title}
           className="h-44 object-cover hover:scale-105 transition-transform duration-300"
         />
-        <div className="absolute top-3 left-3 text-sm bg-red-500 text-white py-0.5 px-1 rounded">New</div>
-        <div className="flex flex-col items-center gap- absolute top-3 right-3">
+        <div className="absolute top-3 left-3 text-sm bg-red-500 text-white py-0.5 px-2 rounded">New</div>
+        {/* <div className="flex flex-col items-center gap- absolute top-3 right-3">
           <CiHeart className="text-3xl" />
           <BsArrowsFullscreen className="" />
           <HiArrowPathRoundedSquare className="text-2xl"/>
 
-        </div>
+        </div> */}
       </div>
 
       {/* Flower Details */}
@@ -55,7 +55,6 @@ const Trending = ({ flower }) => {
         </Link>
       </div>
     </div>
-
   );
 };
 

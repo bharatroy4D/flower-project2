@@ -11,7 +11,7 @@ const Header = () => {
 
             {/* Shop by Categories Button */}
             <div className="flex items-center gap-3">
-                <button className="flex items-center gap-1 mr-6 bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-md transition text-sm md:text-base">
+                <button className="flex items-center gap-1 mr-6 bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded transition text-sm md:text-base">
                     Shop by Categories
                     <MdOutlineKeyboardArrowDown className="text-lg md:text-2xl" />
                 </button>

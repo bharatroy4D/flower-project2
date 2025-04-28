@@ -36,24 +36,6 @@
         "discount": 5
     },
     {
-        "id": 5,
-        "name": "Shiuli",
-        "des": "Night-flowering jasmine blooming in autumn.",
-        "img": "https://images.unsplash.com/photo-1631644270512-3b4f4a9f8178",
-        "category": "Common Flower",
-        "price": 9,
-        "discount": 7
-    },
-    {
-        "id": 6,
-        "name": "Daisy",
-        "des": "Simple white-petaled flower symbolizing innocence.",
-        "img": "https://images.unsplash.com/photo-1518991791750-7492f9d4b1c9",
-        "category": "Common Flower",
-        "price": 11,
-        "discount": 6
-    },
-    {
         "id": 7,
         "name": "Tulip",
         "des": "Spring-blooming flower known for its bright colors.",
@@ -90,24 +72,6 @@
         "discount": 8
     },
     {
-        "id": 11,
-        "name": "Carnation",
-        "des": "Popular decorative flower symbolizing fascination.",
-        "img": "https://images.unsplash.com/photo-1597765268049-6bbd747f75b6",
-        "category": "Rare Flower",
-        "price": 14,
-        "discount": 7
-    },
-    {
-        "id": 12,
-        "name": "Lily",
-        "des": "Elegant flower often used at weddings and events.",
-        "img": "https://images.unsplash.com/photo-1596079890746-9cd641d25c23",
-        "category": "Rare Flower",
-        "price": 19,
-        "discount": 9
-    },
-    {
         "id": 13,
         "name": "Jasmine",
         "des": "Highly fragrant white flower popular in perfumes.",
@@ -126,24 +90,6 @@
         "discount": 10
     },
     {
-        "id": 15,
-        "name": "Gardenia",
-        "des": "Creamy-white flowers famous for strong fragrance.",
-        "img": "https://images.unsplash.com/photo-1598113429856-8a19c7a24dbf",
-        "category": "Fragrant Flower",
-        "price": 17,
-        "discount": 12
-    },
-    {
-        "id": 16,
-        "name": "Tuberose",
-        "des": "Sweet-smelling flower used in traditional ceremonies.",
-        "img": "https://images.unsplash.com/photo-1634020165158-2f2b3f7e0ee8",
-        "category": "Fragrant Flower",
-        "price": 14,
-        "discount": 9
-    },
-    {
         "id": 17,
         "name": "Freesia",
         "des": "Popular in wedding bouquets for its citrus scent.",
@@ -160,24 +106,6 @@
         "category": "Fragrant Flower",
         "price": 21,
         "discount": 13
-    },
-    {
-        "id": 19,
-        "name": "Cherry Blossom",
-        "des": "Symbol of renewal and the fleeting nature of life.",
-        "img": "https://images.unsplash.com/photo-1559599101-b139faafa46d",
-        "category": "Seasonal Flower",
-        "price": 20,
-        "discount": 15
-    },
-    {
-        "id": 20,
-        "name": "Lotus",
-        "des": "Sacred flower symbolizing purity and rebirth.",
-        "img": "https://images.unsplash.com/photo-1602513745274-9fc4a6e95035",
-        "category": "Seasonal Flower",
-        "price": 18,
-        "discount": 12
     },
     {
         "id": 21,
@@ -252,24 +180,6 @@
         "discount": 6
     },
     {
-        "id": 29,
-        "name": "Dandelion",
-        "des": "Sunny yellow flowers turning into fluffy seeds.",
-        "img": "https://images.unsplash.com/photo-1626776328798-70db76c1c781",
-        "category": "Wild Flower",
-        "price": 7,
-        "discount": 3
-    },
-    {
-        "id": 30,
-        "name": "Forget-me-not",
-        "des": "Tiny blue flowers symbolizing remembrance.",
-        "img": "https://images.unsplash.com/photo-1625691872930-5307e7f70a37",
-        "category": "Wild Flower",
-        "price": 9,
-        "discount": 5
-    },
-    {
         "id": 31,
         "name": "Passion Flower",
         "des": "Exotic flower symbolizing faith and spirituality.",
@@ -277,24 +187,6 @@
         "category": "Exotic Flower",
         "price": 23,
         "discount": 15
-    },
-    {
-        "id": 32,
-        "name": "Bird of Paradise",
-        "des": "Striking flower resembling a colorful bird.",
-        "img": "https://images.unsplash.com/photo-1586671266377-4a8b1b1b4f64",
-        "category": "Exotic Flower",
-        "price": 25,
-        "discount": 18
-    },
-    {
-        "id": 33,
-        "name": "Protea",
-        "des": "Large flowering plant native to South Africa.",
-        "img": "https://images.unsplash.com/photo-1576765607925-dcdfa5cf75db",
-        "category": "Exotic Flower",
-        "price": 28,
-        "discount": 20
     },
     {
         "id": 34,
