@@ -41,7 +41,7 @@ const About = () => {
                     {/*filter feature*/}
                     <div className='p-4 border rounded border-gray-400/40 my-7 '>
                         <h1 className='font-bold border-b border-gray-400/50 pb-1'>Filter By</h1>
-                        <h2 className='py-2'>Availability</h2>
+                        <h2 className='py-2'>Availability :</h2>
 
                         {/* checkbox-1 */}
                         <div className="flex items-center gap-4">
@@ -68,7 +68,7 @@ const About = () => {
                         </div>
                         {/* size filter */}
                         <div className='pt-3'>
-                            <h2 className='py-2'>Size</h2>
+                            <h2 className='py-2'>Size :</h2>
 
                             {/* checkbox-1 */}
                             <div className="flex items-center gap-4">
@@ -116,6 +116,57 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                        {/* size color */}
+                        <div className='pt-3'>
+                            <h2 className='py-2'>Color :</h2>
+
+                            {/* checkbox-1 */}
+                            <div className="flex items-center gap-4">
+                               <div className='w-5 h-4 rounded-full bg-blue-600'>                                
+                               </div>
+                                <div className='flex justify-between w-full'>
+                                    <span className="">Blue</span>
+                                    <span className="">(15)</span>
+                                </div>
+                            </div>
+
+                            {/* checkbox-2 */}
+                            <div className="flex items-center gap-4">
+                            <div className='w-5 h-4 rounded-full bg-red-600'>                                
+                            </div>
+                                <div className='flex justify-between w-full'>
+                                    <span className="">Red</span>
+                                    <span className="">(1)</span>
+                                </div>
+                            </div>
+                            {/* checkbox-3 */}
+                            <div className="flex items-center gap-4">
+                            <div className='w-5 h-4 rounded-full bg-yellow-600'>                                
+                            </div>
+                                <div className='flex justify-between w-full'>
+                                    <span className="">yellow</span>
+                                    <span className="">(6)</span>
+                                </div>
+                            </div>
+                            {/* checkbox-4 */}
+                            <div className="flex items-center gap-4">
+                            <div className='w-5 h-4 rounded-full bg-pink-600'>                                
+                            </div>
+                                <div className='flex justify-between w-full'>
+                                    <span className="">Pink</span>
+                                    <span className="">(9)</span>
+                                </div>
+                            </div>
+                            {/* checkbox-5 */}
+                            <div className="flex items-center gap-4">
+                            <div className='w-5 h-4 rounded-full bg-gray-600'>                                
+                            </div>
+                                <div className='flex justify-between w-full'>
+                                    <span className="">Gray</span>
+                                    <span className="">(9)</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* right container */}
@@ -138,7 +189,7 @@ const About = () => {
                             </button>
                             {/* title */}
                             <h1 className='text-4xl font-medium text-white'>There are multi type <br /> flower items</h1>
-                          
+
                         </div>
                     </div>
                     {/* cover title and description div */}
@@ -187,10 +238,10 @@ const About = () => {
                     </div>
 
                     {/* flower products map */}
-                    <div className='gird grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 py-5'>
-                        {
-                            products.map(product =><Product key={product.id} product={product}></Product>)
-                        }
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-6 gap-6">
+                        {products.map((product) => (
+                            <Product key={product.id} product={product} />
+                        ))}
                     </div>
                 </div>
 
