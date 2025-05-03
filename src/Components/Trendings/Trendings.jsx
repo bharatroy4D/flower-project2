@@ -43,7 +43,11 @@ const Trendings = () => {
     };
 
     return (
+<<<<<<< HEAD
         <div className='lg:max-w-7xl lg:px-10 px-5 mx-auto py-6'>
+=======
+        <div className='w-9/12 mx-auto py-6'>
+>>>>>>> dfe08274c457a72b154845a6ebf52a050ed38bbb
             <h1 className='text-2xl lg:text-3xl  font-bold pb-8 font-sans'>Trending Collection</h1>
 
             {/* Slider with custom arrows */}

@@ -9,7 +9,11 @@ import { GiFlowerTwirl } from 'react-icons/gi';
 const MiddleTop = () => {
     return (
         <div >
+<<<<<<< HEAD
             <div className="flex justify-between items-center gap-4 py-6  mx-auto lg:max-w-7xl px-5 lg:px-10 border-b border-gray-400/30 ">
+=======
+            <div className="flex justify-between items-center gap-4 py-6 w-9/12 mx-auto  border-b border-gray-400/30 ">
+>>>>>>> dfe08274c457a72b154845a6ebf52a050ed38bbb
                 <div className="text-3xl hidden lg:block">
                     <a className="flex gap-2 items-center justify-center font-bold font-sans  text-4xl text-pink-800"><GiFlowerTwirl className='text-3xl text-red-500'/>
 

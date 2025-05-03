@@ -19,7 +19,11 @@ const Discount = () => {
     ];
 
     return (
+<<<<<<< HEAD
         <div className=" lg:max-w-7xl lg:px-10 px-5 mx-auto  mt-7 py-10">
+=======
+        <div className=" w-9/12 mx-auto  mt-7 py-10">
+>>>>>>> dfe08274c457a72b154845a6ebf52a050ed38bbb
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
                 {/* Render both cards */}
                 {cards.map((card) => (

@@ -7,7 +7,11 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
+<<<<<<< HEAD
         <div className="lg:max-w-7xl px-5 lg:px-10 mx-auto py-4 flex items-center  relative">
+=======
+        <div className="w-9/12  mx-auto py-4 flex items-center  relative">
+>>>>>>> dfe08274c457a72b154845a6ebf52a050ed38bbb
 
             {/* Shop by Categories Button */}
             <div className="flex items-center gap-3">
