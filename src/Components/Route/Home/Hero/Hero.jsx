@@ -26,7 +26,7 @@ const products = [
 
 const Hero = () => {
     return (
-        <div className="w-10/12 max-w-7xl mx-auto py-10">
+        <div className=" max-w-7xl px-5 lg:px-10 mx-auto py-10">
 
             {/* Top Banner + Flower Cards */}
             <div className="flex flex-col lg:flex-row gap-10 items-stretch">
@@ -41,7 +41,7 @@ const Hero = () => {
                     <img
                         src={shop_2}
                         alt="Banner"
-                        className="w-full h-[250px] md:h-[400px] lg:h-[400px] object-cover"
+                        className="w-full h-[250px] md:h-[400px] lg:h-[415px] object-cover"
                     />
                     <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-10 text-white bg-black/20">
                         <button className="bg-red-600 px-4 py-1 rounded-full text-xs md:text-sm uppercase tracking-wide w-max">
@@ -70,7 +70,7 @@ const Hero = () => {
                         <motion.div
                             key={id}
                             whileHover={{ scale: 1.03 }}
-                            className="flex items-center justify-between bg-gray-200 hover:bg-gray-200 transition rounded p-4 shadow h-[30%]"
+                            className="flex items-center justify-between bg-gray-200 hover:bg-gray-200 transition rounded p-5 shadow h-[30%]"
                         >
                             <img src={img} alt={label} className="w-16 md:w-20 object-contain" />
                             <div className="text-right">
@@ -94,10 +94,9 @@ const Hero = () => {
                 transition={{ duration: 1 }}
                 className="flex flex-wrap justify-center md:justify-between gap-5 mt-12"
             >
-                    {products.map(({ id, img, name }) => (
-                        <div key={id} className=" border border-gray-300 bg-base-200 rounded p-5 flex flex-col items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-44 lg:h-auto">
+                    {products.map(({ id, img,}) => (
+                        <div key={id} className=" border border-gray-300 bg-base-200 rounded p-5 flex flex-col items-center justify-center shadow hover:shadow-lg transition w-28 md:w-32 lg:w-52 lg:h-auto">
                             <img src={img} alt="Product" className="h-20 object-contain" />
-                            {/* <h1 className='font-medium'>{name}</h1> */}
                         </div>
                     ))}
             </motion.div>

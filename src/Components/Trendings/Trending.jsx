@@ -9,8 +9,7 @@ const Trending = ({ flower }) => {
   const { img, title, price, descrip, star, id } = flower;
 
   return (
-    <div className="bg-white rounded border border-gray-300 shadow-lg overflow-hidden md:w-full  w-72 flex flex-col hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-
+    <div className="flex flex-col bg-white rounded border border-gray-300 shadow-lg lg:max-7xl lg:px10 px-5 overflow-hidden  hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
       {/* Flower Image */}
       <div className="w-full h-48 overflow-hidden relative flex items-center justify-center bg-gray-200">
         <img

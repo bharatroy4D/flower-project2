@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaPinterestP } from 'react-icons/f
 
 const Footer = () => {
     return (
-        <footer className="bg-[#212529] text-gray-800 pt-10 pb-6 px-6 md:px-10">
+        <footer className="bg-[#212529] text-gray-800 lg:max-w-7xl mx-auto lg:px-10  pt-10 pb-6  px-5">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 
                 {/* Logo & Description */}
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Footer */}
-            <div className="mt-10 border-t pt-4 text-center text-sm text-white">
+            <div className="mt-10 border-t border-b-gray-300/5 pt-4 text-center text-sm text-white">
                 © {new Date().getFullYear()} FlowerLand. All rights reserved.
             </div>
         </footer>

@@ -4,7 +4,7 @@ import { LiaFlagUsaSolid } from 'react-icons/lia';
 const Top = () => {
     return (
         <div className="bg-base-100 text-sm ">
-            <div className="w-10/12 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2 py-2">
+            <div className="lg:max-w-7xl lg:px-10 mx-auto  flex flex-col md:flex-row justify-between items-center gap-5 py-2">
 
                 {/* Offer Text */}
                 <div className="hidden lg:block text-center md:text-left w-full md:w-auto">
